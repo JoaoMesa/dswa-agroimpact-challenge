@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Dados / modelos / runs
+data/*
+!data/.gitkeep
+models/
+mlruns/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Credenciais Kaggle
+.kaggle/
+kaggle.json

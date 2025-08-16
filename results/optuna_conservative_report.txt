@@ -1,0 +1,20 @@
+=== RELATÓRIO OTIMIZAÇÃO CONSERVADORA ===
+
+Melhor Baseline MSE: 0.22349
+Melhor Optuna MSE: 0.20852
+MSE Final Ensemble: 0.19614
+Melhoria total: 12.24%
+
+Modelos no ensemble: ['RandomForest', 'XGBoost', 'SVR', 'XGBoost_Optimized']
+Pesos por target:
+  acidification - acidification (incl. fate, average Europe total, A&B): [0.06878322 0.         0.         0.93121678]
+  climate change - global warming potential (GWP100): [0.0919251 0.        0.        0.9080749]
+  ecotoxicity: freshwater - freshwater aquatic ecotoxicity (FAETP inf): [0.75227609 0.         0.18587375 0.06185016]
+  ecotoxicity: marine - marine aquatic ecotoxicity (MAETP inf): [0.         0.80366181 0.19633819 0.        ]
+  ecotoxicity: terrestrial - terrestrial ecotoxicity (TETP inf): [0.51610314 0.19342695 0.         0.29046991]
+  energy resources: non-renewable - abiotic depletion potential (ADP): fossil fuels: [0.79090873 0.1226215  0.01319007 0.0732797 ]
+  eutrophication - eutrophication (fate not incl.): [0.13149515 0.58956223 0.         0.27894262]
+  human toxicity - human toxicity (HTP inf): [0.99114024 0.         0.         0.00885976]
+  material resources: metals/minerals - abiotic depletion potential (ADP): elements (ultimate reserves): [0.         0.08119191 0.         0.91880809]
+  ozone depletion - ozone layer depletion (ODP steady state): [0.24772669 0.75227331 0.         0.        ]
+  photochemical oxidant formation - photochemical oxidation (high NOx): [0.97589248 0.         0.         0.02410752]

@@ -1,0 +1,36 @@
+=== RELATÓRIO DE OTIMIZAÇÃO OPTUNA ===
+
+Número de trials: 10
+Melhor MSE: 0.15216
+Melhor modelo: MLP
+Melhores parâmetros:
+  model_type: MLP
+  mlp_n_layers: 3
+  mlp_layer_0_size: 378
+  mlp_layer_1_size: 397
+  mlp_layer_2_size: 83
+  mlp_activation: relu
+  mlp_alpha: 0.028340904295147733
+  mlp_learning_rate: 0.0074112997810832455
+
+=== TOP 5 TRIALS ===
+
+Trial 1:
+  MSE: 0.15216
+  Estado: COMPLETE
+
+Trial 2:
+  MSE: 0.16487
+  Estado: COMPLETE
+
+Trial 3:
+  MSE: 0.23705
+  Estado: COMPLETE
+
+Trial 4:
+  MSE: 0.23743
+  Estado: COMPLETE
+
+Trial 5:
+  MSE: 0.24610
+  Estado: COMPLETE
